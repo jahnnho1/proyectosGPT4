@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPG Básico</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Agrega las siguientes líneas justo antes del cierre de la etiqueta </head> -->
+
+    <style>
+      #player {
+        animation: none;
+      }
+
+      #enemy {
+        animation: none;
+      }
+    </style>
+
+    <!-- Agrega las siguientes líneas dentro de la etiqueta <body> después del elemento <p id="message"> -->
+
+    <div id="player" class="character">Jugador: 100</div>
+    <div id="enemy" class="character">Enemigo: 50</div>
+  </head>
+  <body>
+    <h1>RPG Básico</h1>
+    <p id="message">Empieza tu aventura...</p>
+    <button id="attackBtn">Atacar</button>
+    <button id="healBtn">Curar</button>
+    <script src="rpg.js"></script>
+  </body>
+</html>

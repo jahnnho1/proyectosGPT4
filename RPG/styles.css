@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    margin: 5px;
+}
+
+/* Agrega las siguientes reglas al final del archivo */
+
+@keyframes hit {
+    0% { background-color: red; }
+    100% { background-color: transparent; }
+}
+
+@keyframes heal {
+    0% { background-color: lime; }
+    100% { background-color: transparent; }
+}
+
+.character {
+    transition: background-color 1s;
+}
+
